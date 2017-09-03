@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF9B0F678311FBFFF3F214C /* Pods_SnatchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083869FB30CEB535B0192CD1 /* Pods_SnatchApp.framework */; };
+		760A8E081E1BF56500FE74B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A8E071E1BF56500FE74B8 /* AppDelegate.swift */; };
+		760A8E121E1BF56500FE74B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760A8E101E1BF56500FE74B8 /* LaunchScreen.storyboard */; };
+		760A8E1D1E1C180500FE74B8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760A8E1C1E1C180500FE74B8 /* SignupViewController.swift */; };
+		760FDA2E1EE81F5E00A24FFF /* SelectCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760FDA2D1EE81F5E00A24FFF /* SelectCategoryTableViewController.swift */; };
+		761B05A71E2C075C005B28FE /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B05A61E2C075C005B28FE /* SideMenuTableViewController.swift */; };
+		763A68B81E292D9500DB5B24 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763A68B61E292D9500DB5B24 /* OverlayView.xib */; };
+		763A68B91E292D9500DB5B24 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763A68B71E292D9500DB5B24 /* CustomOverlayView.xib */; };
+		763A68BB1E292DBE00DB5B24 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A68BA1E292DBE00DB5B24 /* BackgroundAnimationViewController.swift */; };
+		763A68BD1E292DD000DB5B24 /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A68BC1E292DD000DB5B24 /* BackgroundKolodaAnimator.swift */; };
+		763A68C11E292E0200DB5B24 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A68BE1E292E0200DB5B24 /* ExampleOverlayView.swift */; };
+		763A68C21E292E0200DB5B24 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A68BF1E292E0200DB5B24 /* CustomKolodaView.swift */; };
+		763A68C31E292E0200DB5B24 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A68C01E292E0200DB5B24 /* CustomOverlayView.swift */; };
+		763EBBF91EE940350083EFD3 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763EBBF81EE940350083EFD3 /* AccountViewController.swift */; };
+		764BFA131E1DF071000F73E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764BFA121E1DF071000F73E6 /* LoginViewController.swift */; };
+		767787B51E7561DD00BA0396 /* WishListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767787B41E7561DD00BA0396 /* WishListTableViewController.swift */; };
+		767787B81E79537400BA0396 /* LoginAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767787B71E79537400BA0396 /* LoginAuthViewController.swift */; };
+		767787BA1E7970E600BA0396 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767787B91E7970E600BA0396 /* AddItemViewController.swift */; };
+		767787BC1E79764200BA0396 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767787BB1E79764200BA0396 /* Item.swift */; };
+		768420DA1E7C2C5C0040FC27 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768420D91E7C2C5C0040FC27 /* User.swift */; };
+		76876A6B1E7EB93D0063F454 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76876A6A1E7EB93D0063F454 /* MapViewController.swift */; };
+		7687C4621EBFDF7E00830AA9 /* RadiusRegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7687C4611EBFDF7E00830AA9 /* RadiusRegionViewController.swift */; };
+		768845581F000E6F00577B93 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768845571F000E6F00577B93 /* ItemView.swift */; };
+		768AA3041EFD9E1400AA3F39 /* EdgeShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768AA3031EFD9E1400AA3F39 /* EdgeShadowLayer.swift */; };
+		76B56E4C1E20B8F40074A3C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76B56E4B1E20B8F40074A3C9 /* GoogleService-Info.plist */; };
+		76B56E5E1E210C490074A3C9 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B56E5D1E210C490074A3C9 /* ShopViewController.swift */; };
+		76B8FD3F1EFECA4600AECBD6 /* MyKolodaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8FD3E1EFECA4600AECBD6 /* MyKolodaViewController.swift */; };
+		76C9CF771EC0CA1500DA1AC3 /* SellingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9CF761EC0CA1500DA1AC3 /* SellingTableViewController.swift */; };
+		76CB095E1F0014E50065AF9F /* ItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CB095D1F0014E50065AF9F /* ItemView.xib */; };
+		76CF5C9F1EF7BD87001953D2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF5C9E1EF7BD87001953D2 /* ResetPasswordViewController.swift */; };
+		76CF5CA11EF7C1DA001953D2 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF5CA01EF7C1DA001953D2 /* SweetAlert.swift */; };
+		76CF5CA51EF933F6001953D2 /* SwipeItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF5CA41EF933F6001953D2 /* SwipeItemsViewController.swift */; };
+		76CF5CA81EF954C6001953D2 /* geofire-objc-master in Resources */ = {isa = PBXBuildFile; fileRef = 76CF5CA71EF954C6001953D2 /* geofire-objc-master */; };
+		76D029871EE9263500D48D34 /* SellingItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D029861EE9263400D48D34 /* SellingItemViewController.swift */; };
+		76DACB301EBF0B2C00972C90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DACB2F1EBF0B2C00972C90 /* Assets.xcassets */; };
+		76DACB321EBF0C7600972C90 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DACB311EBF0C7600972C90 /* ItemViewController.swift */; };
+		76DACB361EBF502400972C90 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DACB351EBF502400972C90 /* SettingsTableViewController.swift */; };
+		76DACB391EBF51EE00972C90 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DACB381EBF51EE00972C90 /* CategoriesTableViewController.swift */; };
+		76E1B76D1E1DFA9300375072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E1B76B1E1DFA9300375072 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		083869FB30CEB535B0192CD1 /* Pods_SnatchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnatchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760A8E041E1BF56500FE74B8 /* SnatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		760A8E071E1BF56500FE74B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		760A8E111E1BF56500FE74B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		760A8E131E1BF56500FE74B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760A8E1C1E1C180500FE74B8 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		760FDA2D1EE81F5E00A24FFF /* SelectCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCategoryTableViewController.swift; sourceTree = "<group>"; };
+		761B05A61E2C075C005B28FE /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		763A68B61E292D9500DB5B24 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		763A68B71E292D9500DB5B24 /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		763A68BA1E292DBE00DB5B24 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
+		763A68BC1E292DD000DB5B24 /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
+		763A68BE1E292E0200DB5B24 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		763A68BF1E292E0200DB5B24 /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		763A68C01E292E0200DB5B24 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		763EBBF81EE940350083EFD3 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		764BFA121E1DF071000F73E6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		764BFA141E1DF343000F73E6 /* SnatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnatchApp.entitlements; sourceTree = "<group>"; };
+		767787B41E7561DD00BA0396 /* WishListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewController.swift; sourceTree = "<group>"; };
+		767787B71E79537400BA0396 /* LoginAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAuthViewController.swift; sourceTree = "<group>"; };
+		767787B91E7970E600BA0396 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		767787BB1E79764200BA0396 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		768420D91E7C2C5C0040FC27 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		76876A6A1E7EB93D0063F454 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7687C4611EBFDF7E00830AA9 /* RadiusRegionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusRegionViewController.swift; sourceTree = "<group>"; };
+		768845571F000E6F00577B93 /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		768AA3031EFD9E1400AA3F39 /* EdgeShadowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeShadowLayer.swift; sourceTree = "<group>"; };
+		76B56E4B1E20B8F40074A3C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76B56E5D1E210C490074A3C9 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		76B8FD3E1EFECA4600AECBD6 /* MyKolodaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKolodaViewController.swift; sourceTree = "<group>"; };
+		76C9CF761EC0CA1500DA1AC3 /* SellingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellingTableViewController.swift; sourceTree = "<group>"; };
+		76CB095D1F0014E50065AF9F /* ItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = "<group>"; };
+		76CF5C9E1EF7BD87001953D2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		76CF5CA01EF7C1DA001953D2 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		76CF5CA41EF933F6001953D2 /* SwipeItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeItemsViewController.swift; sourceTree = "<group>"; };
+		76CF5CA71EF954C6001953D2 /* geofire-objc-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "geofire-objc-master"; sourceTree = "<group>"; };
+		76D029861EE9263400D48D34 /* SellingItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellingItemViewController.swift; sourceTree = "<group>"; };
+		76DACB2F1EBF0B2C00972C90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DACB311EBF0C7600972C90 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		76DACB351EBF502400972C90 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		76DACB381EBF51EE00972C90 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		76E1B76C1E1DFA9300375072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8630E56CCBECA9E59F9CCCF /* Pods-SnatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnatchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnatchApp/Pods-SnatchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFFD23E30A59608BC036662 /* Pods-SnatchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnatchApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnatchApp/Pods-SnatchApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		760A8E011E1BF56400FE74B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF9B0F678311FBFFF3F214C /* Pods_SnatchApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760A8DFB1E1BF56400FE74B8 = {
+			isa = PBXGroup;
+			children = (
+				76CF5CA61EF954AF001953D2 /* GeoFire */,
+				760A8E061E1BF56500FE74B8 /* SnatchApp */,
+				760A8E051E1BF56500FE74B8 /* Products */,
+				EE370435782909A46E919B6D /* Pods */,
+				C2368126E8D264B2DFE956A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		760A8E051E1BF56500FE74B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				760A8E041E1BF56500FE74B8 /* SnatchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		760A8E061E1BF56500FE74B8 /* SnatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				7641DBE71E2935ED00383244 /* Other */,
+				7641DBE61E2935C100383244 /* Koloda */,
+				760A8E1B1E1C177F00FE74B8 /* Controllers */,
+				760A8E1A1E1C177900FE74B8 /* Views */,
+				760A8E191E1C176300FE74B8 /* Models */,
+				760A8E071E1BF56500FE74B8 /* AppDelegate.swift */,
+				76E1B76B1E1DFA9300375072 /* Main.storyboard */,
+				76DACB2F1EBF0B2C00972C90 /* Assets.xcassets */,
+				760A8E101E1BF56500FE74B8 /* LaunchScreen.storyboard */,
+			);
+			path = SnatchApp;
+			sourceTree = "<group>";
+		};
+		760A8E191E1C176300FE74B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76CF5CA01EF7C1DA001953D2 /* SweetAlert.swift */,
+				767787BB1E79764200BA0396 /* Item.swift */,
+				768420D91E7C2C5C0040FC27 /* User.swift */,
+				768AA3031EFD9E1400AA3F39 /* EdgeShadowLayer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		760A8E1A1E1C177900FE74B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				768845571F000E6F00577B93 /* ItemView.swift */,
+				76CB095D1F0014E50065AF9F /* ItemView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		760A8E1B1E1C177F00FE74B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				767787B61E7573AB00BA0396 /* Menu */,
+				767787B71E79537400BA0396 /* LoginAuthViewController.swift */,
+				760A8E1C1E1C180500FE74B8 /* SignupViewController.swift */,
+				764BFA121E1DF071000F73E6 /* LoginViewController.swift */,
+				76876A6A1E7EB93D0063F454 /* MapViewController.swift */,
+				76B56E5D1E210C490074A3C9 /* ShopViewController.swift */,
+				761B05A61E2C075C005B28FE /* SideMenuTableViewController.swift */,
+				767787B41E7561DD00BA0396 /* WishListTableViewController.swift */,
+				767787B91E7970E600BA0396 /* AddItemViewController.swift */,
+				76DACB311EBF0C7600972C90 /* ItemViewController.swift */,
+				760FDA2D1EE81F5E00A24FFF /* SelectCategoryTableViewController.swift */,
+				76CF5C9E1EF7BD87001953D2 /* ResetPasswordViewController.swift */,
+				76CF5CA41EF933F6001953D2 /* SwipeItemsViewController.swift */,
+				76B8FD3E1EFECA4600AECBD6 /* MyKolodaViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7641DBE61E2935C100383244 /* Koloda */ = {
+			isa = PBXGroup;
+			children = (
+				763A68B61E292D9500DB5B24 /* OverlayView.xib */,
+				763A68B71E292D9500DB5B24 /* CustomOverlayView.xib */,
+				763A68BA1E292DBE00DB5B24 /* BackgroundAnimationViewController.swift */,
+				763A68BC1E292DD000DB5B24 /* BackgroundKolodaAnimator.swift */,
+				763A68BE1E292E0200DB5B24 /* ExampleOverlayView.swift */,
+				763A68BF1E292E0200DB5B24 /* CustomKolodaView.swift */,
+				763A68C01E292E0200DB5B24 /* CustomOverlayView.swift */,
+			);
+			name = Koloda;
+			sourceTree = "<group>";
+		};
+		7641DBE71E2935ED00383244 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				760A8E131E1BF56500FE74B8 /* Info.plist */,
+				76B56E4B1E20B8F40074A3C9 /* GoogleService-Info.plist */,
+				764BFA141E1DF343000F73E6 /* SnatchApp.entitlements */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		767787B61E7573AB00BA0396 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				76DACB351EBF502400972C90 /* SettingsTableViewController.swift */,
+				76DACB371EBF51C500972C90 /* Settings */,
+				76C9CF761EC0CA1500DA1AC3 /* SellingTableViewController.swift */,
+				76D029861EE9263400D48D34 /* SellingItemViewController.swift */,
+				763EBBF81EE940350083EFD3 /* AccountViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		76CF5CA61EF954AF001953D2 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				76CF5CA71EF954C6001953D2 /* geofire-objc-master */,
+			);
+			name = GeoFire;
+			sourceTree = "<group>";
+		};
+		76DACB371EBF51C500972C90 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				76DACB381EBF51EE00972C90 /* CategoriesTableViewController.swift */,
+				7687C4611EBFDF7E00830AA9 /* RadiusRegionViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		C2368126E8D264B2DFE956A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083869FB30CEB535B0192CD1 /* Pods_SnatchApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE370435782909A46E919B6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8630E56CCBECA9E59F9CCCF /* Pods-SnatchApp.debug.xcconfig */,
+				BAFFD23E30A59608BC036662 /* Pods-SnatchApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		760A8E031E1BF56400FE74B8 /* SnatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 760A8E161E1BF56500FE74B8 /* Build configuration list for PBXNativeTarget "SnatchApp" */;
+			buildPhases = (
+				801E67B31E97E32AFBACD9AA /* [CP] Check Pods Manifest.lock */,
+				760A8E001E1BF56400FE74B8 /* Sources */,
+				760A8E011E1BF56400FE74B8 /* Frameworks */,
+				760A8E021E1BF56400FE74B8 /* Resources */,
+				0F07875377081DCF2411A48D /* [CP] Embed Pods Frameworks */,
+				8F1E35F56C7499FFBC7D397D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnatchApp;
+			productName = SnatchApp;
+			productReference = 760A8E041E1BF56500FE74B8 /* SnatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		760A8DFC1E1BF56400FE74B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tomer Cohen";
+				TargetAttributes = {
+					760A8E031E1BF56400FE74B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NKM88CW99S;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 760A8DFF1E1BF56400FE74B8 /* Build configuration list for PBXProject "SnatchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 760A8DFB1E1BF56400FE74B8;
+			productRefGroup = 760A8E051E1BF56500FE74B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760A8E031E1BF56400FE74B8 /* SnatchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		760A8E021E1BF56400FE74B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CF5CA81EF954C6001953D2 /* geofire-objc-master in Resources */,
+				760A8E121E1BF56500FE74B8 /* LaunchScreen.storyboard in Resources */,
+				76B56E4C1E20B8F40074A3C9 /* GoogleService-Info.plist in Resources */,
+				763A68B91E292D9500DB5B24 /* CustomOverlayView.xib in Resources */,
+				763A68B81E292D9500DB5B24 /* OverlayView.xib in Resources */,
+				76DACB301EBF0B2C00972C90 /* Assets.xcassets in Resources */,
+				76E1B76D1E1DFA9300375072 /* Main.storyboard in Resources */,
+				76CB095E1F0014E50065AF9F /* ItemView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F07875377081DCF2411A48D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnatchApp/Pods-SnatchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		801E67B31E97E32AFBACD9AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1E35F56C7499FFBC7D397D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnatchApp/Pods-SnatchApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760A8E001E1BF56400FE74B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767787B81E79537400BA0396 /* LoginAuthViewController.swift in Sources */,
+				760A8E1D1E1C180500FE74B8 /* SignupViewController.swift in Sources */,
+				763EBBF91EE940350083EFD3 /* AccountViewController.swift in Sources */,
+				76B8FD3F1EFECA4600AECBD6 /* MyKolodaViewController.swift in Sources */,
+				763A68BD1E292DD000DB5B24 /* BackgroundKolodaAnimator.swift in Sources */,
+				768AA3041EFD9E1400AA3F39 /* EdgeShadowLayer.swift in Sources */,
+				768420DA1E7C2C5C0040FC27 /* User.swift in Sources */,
+				76B56E5E1E210C490074A3C9 /* ShopViewController.swift in Sources */,
+				763A68C11E292E0200DB5B24 /* ExampleOverlayView.swift in Sources */,
+				76DACB321EBF0C7600972C90 /* ItemViewController.swift in Sources */,
+				763A68BB1E292DBE00DB5B24 /* BackgroundAnimationViewController.swift in Sources */,
+				767787B51E7561DD00BA0396 /* WishListTableViewController.swift in Sources */,
+				763A68C21E292E0200DB5B24 /* CustomKolodaView.swift in Sources */,
+				764BFA131E1DF071000F73E6 /* LoginViewController.swift in Sources */,
+				7687C4621EBFDF7E00830AA9 /* RadiusRegionViewController.swift in Sources */,
+				767787BC1E79764200BA0396 /* Item.swift in Sources */,
+				763A68C31E292E0200DB5B24 /* CustomOverlayView.swift in Sources */,
+				76876A6B1E7EB93D0063F454 /* MapViewController.swift in Sources */,
+				767787BA1E7970E600BA0396 /* AddItemViewController.swift in Sources */,
+				76CF5C9F1EF7BD87001953D2 /* ResetPasswordViewController.swift in Sources */,
+				76CF5CA51EF933F6001953D2 /* SwipeItemsViewController.swift in Sources */,
+				76CF5CA11EF7C1DA001953D2 /* SweetAlert.swift in Sources */,
+				76C9CF771EC0CA1500DA1AC3 /* SellingTableViewController.swift in Sources */,
+				768845581F000E6F00577B93 /* ItemView.swift in Sources */,
+				76D029871EE9263500D48D34 /* SellingItemViewController.swift in Sources */,
+				76DACB361EBF502400972C90 /* SettingsTableViewController.swift in Sources */,
+				760A8E081E1BF56500FE74B8 /* AppDelegate.swift in Sources */,
+				761B05A71E2C075C005B28FE /* SideMenuTableViewController.swift in Sources */,
+				76DACB391EBF51EE00972C90 /* CategoriesTableViewController.swift in Sources */,
+				760FDA2E1EE81F5E00A24FFF /* SelectCategoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		760A8E101E1BF56500FE74B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				760A8E111E1BF56500FE74B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		76E1B76B1E1DFA9300375072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E1B76C1E1DFA9300375072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		760A8E141E1BF56500FE74B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		760A8E151E1BF56500FE74B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		760A8E171E1BF56500FE74B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8630E56CCBECA9E59F9CCCF /* Pods-SnatchApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SnatchApp/SnatchApp.entitlements;
+				DEVELOPMENT_TEAM = NKM88CW99S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SnatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomerco.SnatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		760A8E181E1BF56500FE74B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFFD23E30A59608BC036662 /* Pods-SnatchApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SnatchApp/SnatchApp.entitlements;
+				DEVELOPMENT_TEAM = NKM88CW99S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SnatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tomerco.SnatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		760A8DFF1E1BF56400FE74B8 /* Build configuration list for PBXProject "SnatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760A8E141E1BF56500FE74B8 /* Debug */,
+				760A8E151E1BF56500FE74B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760A8E161E1BF56500FE74B8 /* Build configuration list for PBXNativeTarget "SnatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760A8E171E1BF56500FE74B8 /* Debug */,
+				760A8E181E1BF56500FE74B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 760A8DFC1E1BF56400FE74B8 /* Project object */;
+}

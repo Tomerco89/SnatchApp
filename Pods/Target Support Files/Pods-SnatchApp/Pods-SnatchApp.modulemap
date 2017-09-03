@@ -1,0 +1,6 @@
+framework module Pods_SnatchApp {
+  umbrella header "Pods-SnatchApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

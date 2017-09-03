@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ItemView" customModule="SnatchApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="550"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XHK-At-9RX">
+                    <rect key="frame" x="0.0" y="0.0" width="340" height="420"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dC-dk-wQn">
+                    <rect key="frame" x="16" y="428" width="145" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nft-bD-85o">
+                    <rect key="frame" x="16" y="457" width="75" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Item Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHx-fb-h2a">
+                    <rect key="frame" x="16" y="485" width="225" height="58"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="textContainer.lineFragmentPadding">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="rect" keyPath="textContainerInset">
+                            <rect key="value" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seller Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05J-C7-PfJ">
+                    <rect key="frame" x="16" y="386" width="130" height="20"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XHx-fb-h2a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="1H4-lD-Nlg"/>
+                <constraint firstAttribute="trailing" secondItem="XHx-fb-h2a" secondAttribute="trailing" constant="99" id="2QC-jO-eey"/>
+                <constraint firstAttribute="trailing" secondItem="05J-C7-PfJ" secondAttribute="trailing" constant="194" id="6b5-p5-1IZ"/>
+                <constraint firstItem="7dC-dk-wQn" firstAttribute="trailing" secondItem="XHK-At-9RX" secondAttribute="trailing" constant="-179" id="BJc-0T-6KP"/>
+                <constraint firstItem="XHK-At-9RX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CBy-iN-fYw"/>
+                <constraint firstItem="05J-C7-PfJ" firstAttribute="top" secondItem="XHK-At-9RX" secondAttribute="bottom" constant="-34" id="CDD-S0-uic"/>
+                <constraint firstItem="05J-C7-PfJ" firstAttribute="leading" secondItem="XHK-At-9RX" secondAttribute="trailing" constant="-324" id="GXC-hJ-D5W"/>
+                <constraint firstItem="05J-C7-PfJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="IcJ-01-pCP"/>
+                <constraint firstItem="7dC-dk-wQn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="MYP-mL-y8L"/>
+                <constraint firstItem="XHx-fb-h2a" firstAttribute="top" secondItem="Nft-bD-85o" secondAttribute="bottom" constant="8" id="QND-tG-Z5l"/>
+                <constraint firstItem="Nft-bD-85o" firstAttribute="top" secondItem="7dC-dk-wQn" secondAttribute="bottom" constant="8" id="R5M-Ts-fPm"/>
+                <constraint firstItem="XHx-fb-h2a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-41.5" id="TXx-iz-x1m"/>
+                <constraint firstAttribute="bottom" secondItem="7dC-dk-wQn" secondAttribute="bottom" constant="101" id="UgV-9w-DV1"/>
+                <constraint firstAttribute="bottom" secondItem="05J-C7-PfJ" secondAttribute="bottom" constant="144" id="V7s-N1-Pzq"/>
+                <constraint firstItem="XHK-At-9RX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="V9g-vL-scq"/>
+                <constraint firstAttribute="trailing" secondItem="XHK-At-9RX" secondAttribute="trailing" id="Xun-lM-SHo"/>
+                <constraint firstItem="XHK-At-9RX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Yp8-jL-HBY"/>
+                <constraint firstItem="7dC-dk-wQn" firstAttribute="top" secondItem="XHK-At-9RX" secondAttribute="bottom" constant="8" id="aQQ-uf-j2y"/>
+                <constraint firstItem="05J-C7-PfJ" firstAttribute="leading" secondItem="7dC-dk-wQn" secondAttribute="trailing" constant="-145" id="dgC-y8-F7I"/>
+                <constraint firstAttribute="bottom" secondItem="XHK-At-9RX" secondAttribute="bottom" constant="130" id="eqp-Q3-0Fg"/>
+                <constraint firstItem="Nft-bD-85o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="oqy-Mt-TlU"/>
+                <constraint firstAttribute="bottom" secondItem="XHx-fb-h2a" secondAttribute="bottom" constant="7" id="xam-hx-x51"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="itemDescriptionLabel" destination="XHx-fb-h2a" id="Ocx-CH-bdx"/>
+                <outlet property="itemNameLabel" destination="7dC-dk-wQn" id="AiL-6o-wA6"/>
+                <outlet property="itemPriceLabel" destination="Nft-bD-85o" id="zN8-5F-Tql"/>
+                <outlet property="itemSellerNameLabel" destination="05J-C7-PfJ" id="JfL-Yg-PAh"/>
+                <outlet property="photoImageView" destination="XHK-At-9RX" id="cd0-Iu-D1v"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="-66"/>
+        </view>
+    </objects>
+</document>
